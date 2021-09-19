@@ -17,7 +17,6 @@ class App extends Component {
           { actDelete: id++, Text: text, active: true },
         ],
       });
-    this.data(this.state.contents);
   };
   actDelete = (res) => {
     const contents = this.state.contents.filter(
